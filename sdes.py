@@ -84,7 +84,7 @@ key=list(input("Enter the 10 bit binary key for encryption:\n"))
 
 inp=applyPermutation(inp,ip)
 k1,k2=generateKeys(key)
-print("\tData is being incrypted...")
+print("\tData is being encrypted...")
 time.sleep(0.4)
 result=performEncryption(inp,k1,k2)
 print("Cipher text:"+''.join(result))
